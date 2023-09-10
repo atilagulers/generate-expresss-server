@@ -23,6 +23,11 @@
     "mongoose",
     "mongodb"
   ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/atilagulers/generate-expresss-server"
+},
+
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
