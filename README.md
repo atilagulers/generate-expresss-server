@@ -4,6 +4,12 @@
 
 ## Installation
 
+Mac
+```sh
+$ sudo npm install -g generate-express-server
+```
+
+Windows
 ```sh
 $ npm install -g generate-express-server
 ```
