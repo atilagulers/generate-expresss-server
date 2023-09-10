@@ -1,15 +1,28 @@
 {
   "name": "generate-express-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "./bin/index.js",
+  "description": "Express application generator",
+  "main": "./bin/cli.js",
   "bin": {
-    "express": "./bin/cli.js"
+    "create-express-app": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Atila Guler",
+  "keywords": [
+    "express",
+    "framework",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api",
+    "mongo",
+    "mongoose",
+    "mongodb"
+  ],
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",

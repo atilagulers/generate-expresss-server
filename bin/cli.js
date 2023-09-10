@@ -4,12 +4,12 @@ const {execSync} = require('child_process');
 const path = require('path');
 const fs = require('fs-extra');
 const colors = require('colors');
-console.log(process.argv);
+
 const args = process.argv.slice(2);
 const projectName = args[0];
 
-if (!projectName) {
-  console.error('Usage: my-express-cli <project-name>');
+if (!projectName || args.length !== 1) {
+  console.error(colors.cyan('Usage: create-express-app <project-name>'));
   process.exit(1);
 }
 
@@ -20,7 +20,6 @@ if (fs.existsSync(projectDir)) {
   console.log(
     colors.red.bold(`Project directory "${projectName}" already exists.`)
   );
-  //console.error(`Project directory "${projectName}" already exists.`);
   process.exit(1);
 }
 
