@@ -5,11 +5,13 @@
 ## Installation
 
 Mac
+
 ```sh
 $ sudo npm install -g generate-express-server
 ```
 
 Windows
+
 ```sh
 $ npm install -g generate-express-server
 ```
@@ -21,7 +23,7 @@ The quickest way to get started with express is to utilize the executable `expre
 Create the app:
 
 ```bash
-$ npx express myServer
+$ npx create-express-app myApp
 ```
 
 Install dependencies:
