@@ -1,6 +1,6 @@
 {
   "name": "generate-express-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express application generator",
   "main": "./bin/cli.js",
   "bin": {
@@ -24,10 +24,9 @@
     "mongodb"
   ],
   "repository": {
-  "type": "git",
-  "url": "https://github.com/atilagulers/generate-expresss-server"
-},
-
+    "type": "git",
+    "url": "https://github.com/atilagulers/generate-expresss-server"
+  },
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
