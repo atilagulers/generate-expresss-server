@@ -1,6 +1,6 @@
 {
   "name": "generate-express-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express application generator",
   "main": "./bin/cli.js",
   "bin": {
