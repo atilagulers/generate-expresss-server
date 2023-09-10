@@ -15,7 +15,7 @@ The quickest way to get started with express is to utilize the executable `expre
 Create the app:
 
 ```bash
-$ npx generate-express-server myServer
+$ npx express myServer
 ```
 
 Install dependencies:
