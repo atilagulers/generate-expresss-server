@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Express application generator",
   "main": "./bin/cli.js",
+  "type": "module",
   "bin": {
     "create-express-app": "./bin/cli.js"
   },
@@ -30,6 +31,7 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
-    "fs-extra": "^11.1.1"
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.11"
   }
 }
